@@ -173,38 +173,5 @@ class Main {
     }
 }
 
-//ArrayList
-class DemoArray {
-    public static void main(String[] args) {
-        ArrayList<String> days = new ArrayList<>();
-        days.add("Monday");
-        days.add("Tuesday");
-        days.add(1, "Wednesday");
-        System.out.println("Days: "+ days);
-        String str = days.get(1);
-        System.out.println(str);
-        days.set(0, "Sunday");
-        System.out.println(days);
-        String rem = days.remove(0);
-        System.out.println(rem);
-    }
-}
 
-//Hash-map
-class HashExamp {
-    public static void main(String[] args) {
-        Map<Integer, String> map = new
-    }
-}
-
-//if-else
-class DemoIf {
-    public static void main(String[] args) {
-        int num = 7;
-        if (num % 2 == 0)
-            System.out.println("Number is even");
-        else
-            System.out.println("Number is odd.");
-    }
-}
 
